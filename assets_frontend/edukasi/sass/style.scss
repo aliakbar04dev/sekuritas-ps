@@ -1,0 +1,81 @@
+#edukasi{
+
+    max-width: 750px;
+    margin: 60px auto;
+    background: #F7F7F7;
+    border-radius: 10px;
+    overflow: hidden;
+
+    strong, b, label {
+        font-weight: 700 !important;
+    }
+
+    .text-orange{
+        color: #D19200;
+    }
+    .bg-orange{
+        background: #D19200;
+    }
+
+    .btn-submit {
+        background: #D19200;
+        color: #fff;
+        padding: 5px 30px;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    #main-header {
+        background: #FFDF4F;
+        padding: 40px;
+        text-align: center;
+        position: relative;
+
+        &::before{
+            content: '';
+            background: url('../img/bg-header.png') no-repeat;
+            width: 178px;
+            height: 51px;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        &::after{
+            content: '';
+            background: url('../img/bg-header.png') no-repeat;
+            width: 178px;
+            height: 51px;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+        }
+    }
+
+    #main-content {
+        padding: 35px;
+
+        #info{
+            border-bottom: 1px solid #888888;
+            padding-bottom: 30px;
+            margin-bottom: 30px;
+            table{
+                margin: 0 auto;
+                max-width: 450px;
+            }
+        }
+    }
+}
+
+.modal {
+    z-index: 9999;
+}
+
+// ====================== responsive ===========================
+@media only screen and (max-width: 900px) {
+    #edukasi #main-header h1{
+        font-size: 30px;
+    }    
+    #edukasi #main-content #info h3 {
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,219 @@
+#lomba strong, #lomba b, #lomba label {
+  font-weight: 700 !important;
+}
+#lomba .bg-white {
+  background: #fff;
+}
+#lomba .text-yellow {
+  color: #D19200;
+}
+#lomba #main-banner {
+  position: relative;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+}
+#lomba #main-banner h1 {
+  color: #fff;
+  display: none;
+}
+#lomba .form-heading {
+  text-align: center;
+  padding: 50px 0;
+}
+#lomba .nav-tabs {
+  border-bottom: none;
+}
+#lomba .nav-tabs .nav-link {
+  margin-bottom: -1px;
+  border: 1px solid #000;
+  border-top-left-radius: 0;
+  border-top-right-radius: 15px;
+  background: #C4C4C4;
+  border-left: none;
+  color: #757575;
+  padding: 5px 20px;
+  margin-top: 10px;
+  font-weight: bold;
+  padding-left: 40px;
+}
+#lomba .nav-tabs li.nav-item {
+  margin-left: -25px;
+}
+#lomba .nav-tabs .nav-link.active {
+  color: #fff;
+  background-color: #D19200;
+  border-color: #D19200;
+  border-left: 1px solid #D19200;
+  padding: 10px 30px;
+  margin-top: 0;
+}
+#lomba .nav-tabs .nav-link:focus, #lomba .nav-tabs .nav-tabs .nav-link:hover {
+  border-color: #000;
+}
+#lomba .nav-tabs .nav-item:nth-child(1) {
+  margin-left: 0;
+}
+#lomba .nav-tabs.active-1 .nav-item:nth-child(1) {
+  margin-left: 0;
+  z-index: 3;
+}
+#lomba .nav-tabs.active-1 .nav-item:nth-child(2) {
+  z-index: 2;
+}
+#lomba .nav-tabs.active-2 .nav-item:nth-child(1) {
+  z-index: 1;
+}
+#lomba .nav-tabs.active-2 .nav-item:nth-child(1) .nav-link {
+  padding: 5px 45px 5px 25px;
+  border-top-left-radius: 15px;
+  border-left: 1px solid;
+}
+#lomba .nav-tabs.active-2 .nav-item:nth-child(2) {
+  z-index: 3;
+}
+#lomba .nav-tabs.active-2 .nav-item:nth-child(2) .nav-link.active {
+  border-top-left-radius: 15px;
+}
+#lomba .nav-tabs.active-3 .nav-item:nth-child(1) {
+  z-index: 0;
+}
+#lomba .nav-tabs.active-3 .nav-item:nth-child(1) .nav-link {
+  padding: 5px 40px 5px 25px;
+  border-top-left-radius: 15px;
+  border-left: 1px solid;
+}
+#lomba .nav-tabs.active-3 .nav-item:nth-child(2) {
+  z-index: 2;
+}
+#lomba .nav-tabs.active-3 .nav-item:nth-child(2) .nav-link {
+  border-left: 1px solid;
+  border-top-left-radius: 15px;
+  padding: 5px 20px 5px 20px;
+  border-top-right-radius: 0;
+}
+#lomba .nav-tabs.active-3 .nav-item:nth-child(3) {
+  z-index: 3;
+  margin-left: -1px;
+}
+#lomba .nav-tabs.active-3 .nav-item:nth-child(3) .nav-link.active {
+  border-top-left-radius: 15px;
+}
+#lomba .box {
+  margin-bottom: 100px;
+  display: none;
+}
+#lomba .box.active {
+  display: block;
+}
+#lomba .box .item {
+  margin-bottom: 50px;
+}
+#lomba .box .item .q {
+  position: relative;
+}
+#lomba .box .item .q::before {
+  content: "";
+  position: absolute;
+  border-bottom: 1px solid;
+  width: 100%;
+  top: 50%;
+}
+#lomba .box .item .q span {
+  position: relative;
+  background: #fff;
+  padding: 0px 15px 0px 0px;
+  font-weight: bold;
+  font-size: 20px;
+}
+#lomba .box .item .a {
+  padding-left: 20px;
+}
+#lomba .box .box-footer {
+  text-align: right;
+  margin-top: 30px;
+}
+#lomba .box#step-1 .form-check {
+  margin-bottom: 5px;
+}
+#lomba .box#step-1 .form-check label {
+  font-weight: normal !important;
+}
+#lomba .box#step-1 .form-check input {
+  margin-top: 8px;
+}
+#lomba .btn-submit {
+  background: #D19200;
+  color: #fff;
+  padding: 5px 30px;
+  font-weight: bold;
+  font-size: 20px;
+}
+#lomba .clonable {
+  border-bottom: 2px dashed;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+}
+#lomba .table td, #lomba .table th {
+  vertical-align: middle;
+  text-align: center;
+}
+#lomba .table-bordered td, #lomba .table-bordered th {
+  border: 1px solid #000;
+}
+#lomba #tabel-harga .heading {
+  border-top: none;
+  border-left: none;
+}
+#lomba #tabel-harga .early td {
+  background-color: #C7FBFF;
+}
+#lomba #tabel-harga .c1 {
+  background-color: #FFE7AE;
+}
+#lomba #tabel-harga .c2 {
+  background-color: #E9B653;
+}
+#lomba #tabel-harga .c3 {
+  background-color: #D19200;
+}
+#lomba #total-wrap #total {
+  font-weight: 300;
+  font-size: 32px;
+  color: #D19200;
+}
+#lomba #selamat {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+#lomba #selamat .heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  color: #D19200;
+}
+#lomba #selamat #countdown-bayar {
+  font-weight: bold;
+}
+#lomba #konfirmasi .heading {
+  font-weight: 700;
+  font-size: 20px;
+  border-bottom: 1px solid;
+  margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 900px) {
+  #lomba #main-banner {
+    padding: 30px;
+  }
+
+  #lomba #main-banner h1 {
+    font-size: 23px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
